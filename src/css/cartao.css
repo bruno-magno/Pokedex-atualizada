@@ -1,0 +1,144 @@
+.cartao-pokemon {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.cartao-pokemon .cartao-topo {    
+    padding: 30px 40px 0;
+}
+
+.cartao-pokemon .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-pokemon .elemento {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-pokemon .detalhes {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem {
+    width: 350px;
+    height: 350px;   
+}
+
+.cartao-pokemon img {
+    max-height: 100%;
+}
+
+.cartao-pokemon .cartao-informacoes {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.cartao-pokemon .cartao-informacoes .status,.cartao-pokemon .cartao-informacoes .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li,.cartao-pokemon .cartao-informacoes .status ul li{
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto {
+    display: block;
+}
+
+.tipo-fogo {
+   
+   background: linear-gradient( to top, #c71717e1 500px, transparent 850px);
+      
+}
+
+.tipo-eletrico {
+    background: linear-gradient(to top, #dbb32dec 500px, transparent 850px);
+}
+
+.tipo-agua {
+    background: linear-gradient(to top, #1916c2d5 500px, transparent 850px);
+}
+
+.tipo-planta {
+    background: linear-gradient(to top, #3a743af8 500px, transparent 850px);
+}
+
+.tipo-fantasma {
+    background: linear-gradient(to top, #6f6b72 500px, transparent 800px);
+}
+
+.tipo-dragao {
+    background: linear-gradient(to top, #96767e 500px, transparent 800px);
+}
+
+.tipo-planta-venenoso {
+    background: linear-gradient(to top, #3a743af8 75%, #a223ebb9);
+}
+
+.tipo-fantasma-venenoso {
+    background: linear-gradient(to top, #513268 75%, #a223ebb9);
+}
+
+.tipo-agua-voador {
+    background: linear-gradient(to top, #1916c2d5 75%, #50ace9b9);
+}
+
+.tipo-dragao-voador {
+    background: linear-gradient(to top, #96767e 75%, #50ace9b9);    
+}
+
+.elemento.voador{
+    background-color: rgb(157, 188, 247);
+}
+
+.elemento.planta{
+    background-color: #02b446da;
+}
+
+.elemento.venenoso{
+    background-color: #ac04ca;
+}
+
+.elemento.fogo{
+    background-color: rgb(228, 21, 24);
+}
+
+.elemento.eletrico{
+    background-color: #f7bf07;
+}
+
+.elemento.fantasma{
+    background-color: #513268;
+}
+
+.elemento.agua{
+    background-color: #0778db;
+}
+
+.elemento.dragao{
+    background-color: #ad7d76;
+}
